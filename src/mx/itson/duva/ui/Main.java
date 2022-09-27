@@ -84,6 +84,8 @@ public class Main extends javax.swing.JFrame {
         
         Operacion operacion = new Operacion();
         
+        // Pasos 
+        
         double gradosCentigrados = operacion.convertirCentigrados(gradosFarenheit);
         
         lblResultado.setText("El resultado es: " + gradosCentigrados + " ºC");
